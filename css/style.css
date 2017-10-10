@@ -1,0 +1,230 @@
+/*
+	MAIN STYLESHEET
+*/
+body {
+  background-image: url("../images/misc/background.png"); }
+
+.clear {
+  clear: both; }
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.hidden {
+  display: none !important; }
+
+.content {
+  width: 1050px;
+  margin: 100px auto;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+  .content .register-button {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Righteous';
+    font-size: 2em;
+    float: right;
+    background-color: #ffffff;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black; }
+    .content .register-button:hover {
+      cursor: pointer;
+      background-color: #cdcdff; }
+  .content .top-picture, .content .bottom-picture {
+    position: relative;
+    width: 100%; }
+    .content .top-picture .image, .content .bottom-picture .image {
+      width: 100%;
+      height: 100%; }
+  .content .top-picture {
+    height: 350px; }
+  .content .bottom-picture {
+    height: 500px; }
+  .content .top-picture .header {
+    position: absolute;
+    top: 110px;
+    left: 15px;
+    text-shadow: 4px 4px 2px black;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 5em;
+    color: white;
+    line-height: 80px; }
+  .content .welcome-page {
+    display: block;
+    width: 100%;
+    background-color: white; }
+    .content .welcome-page .event-details .header, .content .welcome-page .event-details .header-two {
+      display: inline-block;
+      font-family: 'Righteous'; }
+    .content .welcome-page .event-details .header {
+      font-size: 2.5em;
+      margin: 0;
+      padding: 0 0 0 7px; }
+    .content .welcome-page .event-details .header-two {
+      font-size: 2em;
+      margin: 0;
+      padding: 0 0 0 35px; }
+    .content .welcome-page .event-details .details-text {
+      display: inline-block;
+      width: 60%;
+      font-family: 'Boogaloo';
+      font-size: 1.5em;
+      margin: -25px 0 0 15px;
+      padding: 0 15px 0 20px; }
+      .content .welcome-page .event-details .details-text .second-register-button {
+        display: inline;
+        border: 2px solid black;
+        border-left: none;
+        border-right: none;
+        margin-left: 25px; }
+        .content .welcome-page .event-details .details-text .second-register-button:hover {
+          cursor: pointer;
+          background-color: #cdcdff; }
+    .content .welcome-page .event-details .spacer {
+      width: 100%;
+      height: 30px; }
+    .content .welcome-page .event-details .gifts {
+      display: inline-block;
+      width: 66%;
+      margin: 0 auto 5px auto;
+      padding: 0 0 0 25px;
+      font-family: 'Eagle Lake', cursive;
+      font-size: 1.15em; }
+    .content .welcome-page .event-details .debbie-kevin {
+      width: 325px;
+      float: left;
+      margin: 0 5px 0 0; }
+    .content .welcome-page .middle-divider {
+      width: 100%;
+      height: 200px; }
+      .content .welcome-page .middle-divider .image {
+        width: 100%;
+        height: 100%; }
+    .content .welcome-page .dinner-details {
+      width: 100%; }
+      .content .welcome-page .dinner-details .header {
+        width: 75%;
+        height: 150px;
+        margin: 10px auto; }
+        .content .welcome-page .dinner-details .header .header-image {
+          width: 100%;
+          height: 100%; }
+      .content .welcome-page .dinner-details .dining-options {
+        display: inline-block;
+        width: 100%;
+        text-align: center; }
+        .content .welcome-page .dinner-details .dining-options .food {
+          display: inline-block;
+          width: 30%;
+          height: 450px;
+          margin: 0 25px;
+          vertical-align: top; }
+          .content .welcome-page .dinner-details .dining-options .food .image {
+            width: 80%; }
+          .content .welcome-page .dinner-details .dining-options .food .food-header {
+            font-family: 'Righteous';
+            font-size: 1.35em; }
+          .content .welcome-page .dinner-details .dining-options .food .food-description {
+            font-family: 'Boogaloo';
+            font-size: 1.2em; }
+        .content .welcome-page .dinner-details .dining-options .extra-food {
+          display: inline-block;
+          width: 33%;
+          height: 250px;
+          margin: 5px 0 15px 0;
+          vertical-align: top; }
+          .content .welcome-page .dinner-details .dining-options .extra-food .image {
+            width: 35%; }
+          .content .welcome-page .dinner-details .dining-options .extra-food .extra-food-header {
+            font-family: 'Righteous';
+            font-size: 1.35em; }
+          .content .welcome-page .dinner-details .dining-options .extra-food .extra-food-description {
+            font-family: 'Boogaloo';
+            font-size: 1.2em; }
+  .content .register-page {
+    display: none;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: white; }
+    .content .register-page .header {
+      font-family: 'Righteous';
+      font-size: 2.5em;
+      text-align: center;
+      margin: 0;
+      padding: 0 0 2.5px 30px; }
+    .content .register-page .description {
+      font-family: 'Boogaloo';
+      font-size: 1.5em;
+      margin: 0 0 10px 0;
+      padding: 0 15px 0 20px; }
+    .content .register-page .help-text {
+      font-family: 'Boogaloo';
+      font-size: 1.25em;
+      margin: 0 0 10px 0;
+      padding: 0 15px 0 20px; }
+    .content .register-page .registration-fields {
+      display: inline-block;
+      width: 90%;
+      margin: 15px 0;
+      padding: 0 5%;
+      text-align: center; }
+      .content .register-page .registration-fields .submit-button {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 5px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        font-family: 'Righteous';
+        font-size: 2em; }
+        .content .register-page .registration-fields .submit-button:hover {
+          cursor: pointer;
+          background-color: #cdcdff; }
+      .content .register-page .registration-fields label {
+        display: inline-block;
+        width: 300px;
+        padding-right: 15px;
+        font-family: 'Boogaloo';
+        font-size: 1em;
+        text-align: right; }
+      .content .register-page .registration-fields input {
+        display: inline-block;
+        width: 350px;
+        height: 25px;
+        margin-bottom: 7px;
+        padding: 0 5px;
+        font-weight: bold; }
+    .content .register-page .list-of-people {
+      width: 65%;
+      margin: 50px auto 0 auto; }
+      .content .register-page .list-of-people .registered-guest-header {
+        margin-top: 15px;
+        border-bottom: 2px solid #a6a6a6;
+        font-family: 'Righteous';
+        font-size: 1.25em;
+        font-weight: bold; }
+      .content .register-page .list-of-people .registered-guest {
+        border-bottom: 2px solid #cccccc; }
+      .content .register-page .list-of-people .registered-guest-header, .content .register-page .list-of-people .registered-guest {
+        margin-bottom: 5px; }
+        .content .register-page .list-of-people .registered-guest-header .name, .content .register-page .list-of-people .registered-guest-header .guest, .content .register-page .list-of-people .registered-guest .name, .content .register-page .list-of-people .registered-guest .guest {
+          display: inline-block; }
+        .content .register-page .list-of-people .registered-guest-header .name, .content .register-page .list-of-people .registered-guest .name {
+          width: 50%; }
+        .content .register-page .list-of-people .registered-guest-header .guest, .content .register-page .list-of-people .registered-guest .guest {
+          width: 35%; }
+
+.footer {
+  width: 100%;
+  padding-right: 10px;
+  text-align: right;
+  font-family: 'Eagle Lake', cursive;
+  font-size: 1em;
+  color: #838383; }
+
+/*# sourceMappingURL=style.css.map */

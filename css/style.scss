@@ -1,0 +1,312 @@
+/*
+	MAIN STYLESHEET
+*/
+
+body {
+	background-image: url('../images/misc/background.png');
+}
+
+.clear {
+	clear: both;
+}
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.hidden {
+	display: none !important;
+}
+
+.content {
+	width: 1050px;
+	margin: 100px auto;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	
+	
+	.register-button {
+		display: inline-block;
+		padding: 10px;
+		font-family: 'Righteous';
+		font-size: 2em;
+		float: right;
+		background-color: #ffffff;
+		border-top: 4px solid black;
+		border-bottom: 4px solid black;
+	
+		&:hover {
+			cursor: pointer;
+			background-color: #cdcdff;
+		}
+	}
+	
+	.top-picture, .bottom-picture {
+		position: relative;
+		width: 100%;
+		
+		.image {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.top-picture {
+		height: 350px;
+	}
+	.bottom-picture {
+		height: 500px;
+	}
+	.top-picture .header {
+		position: absolute;
+		top: 110px;
+		left: 15px;
+		text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+		font-family: 'Eagle Lake', cursive;
+		font-size: 5em;
+		color: white;
+		line-height: 80px;
+	}
+	
+	
+	
+	.welcome-page {
+		display: block;
+		width: 100%;
+		background-color: white;
+	
+		.event-details {
+			.header, .header-two {
+				display: inline-block;
+				font-family: 'Righteous';
+			}
+			.header {
+				font-size: 2.5em;
+				margin: 0;
+				padding: 0 0 0 7px;
+			}
+			.header-two {
+				font-size: 2em;
+				margin: 0;
+				padding: 0 0 0 35px;
+			}
+			.details-text {
+				display: inline-block;
+				width: 60%;
+				font-family: 'Boogaloo';
+				font-size: 1.5em;
+				margin: -25px 0 0 15px;
+				padding: 0 15px 0 20px;
+			
+				.second-register-button {
+					display: inline;
+					border: 2px solid black;
+					border-left: none;
+					border-right: none;
+					margin-left: 25px;
+					
+					&:hover {
+						cursor: pointer;
+						background-color: #cdcdff;
+					}
+				}
+			}
+			.spacer {
+				width: 100%;
+				height: 30px;
+			}
+			.gifts {
+				display: inline-block;
+				width: 66%;
+				margin: 0 auto 5px auto;
+				padding: 0 0 0 25px;
+				font-family: 'Eagle Lake', cursive;
+				font-size: 1.15em;
+			}
+			.debbie-kevin {
+				width: 325px;
+				float: left;
+				margin: 0 5px 0 0;
+			}
+		}
+	
+		.middle-divider {
+			width: 100%;
+			height: 200px;
+		
+			.image {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	
+		.dinner-details {
+			width: 100%;
+			
+			.header {
+				width: 75%;
+				height: 150px;
+				margin: 10px auto;
+				
+				.header-image {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		
+			.dining-options {
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+				
+				.food {
+					display: inline-block;
+					width: 30%;
+					height: 450px;
+					margin: 0 25px;
+					vertical-align: top;
+					
+					.image {
+						width: 80%;
+					}
+					.food-header {
+						font-family: 'Righteous';
+						font-size: 1.35em;
+					}
+					.food-description {
+						font-family: 'Boogaloo';
+						font-size: 1.2em;
+					}
+				}
+			
+				.extra-food {
+					display: inline-block;
+					width: 33%;
+					height: 250px;
+					margin: 5px 0 15px 0;
+					vertical-align: top;
+					
+					.image {
+						width: 35%;
+					}
+					.extra-food-header {
+						font-family: 'Righteous';
+						font-size: 1.35em;
+					}
+					.extra-food-description {
+						font-family: 'Boogaloo';
+						font-size: 1.2em;
+					}
+				}
+			}
+		}
+	}
+			
+	.register-page {
+		display: none;
+		width: 100%;
+		padding-bottom: 50px;
+		background-color: white;
+		
+		.header {
+			font-family: 'Righteous';
+			font-size: 2.5em;
+			text-align: center;
+			margin: 0;
+			padding: 0 0 2.5px 30px;
+		}
+		.description {
+			font-family: 'Boogaloo';
+			font-size: 1.5em;
+			margin: 0 0 10px 0;
+			padding: 0 15px 0 20px;
+		}
+		.help-text {
+			font-family: 'Boogaloo';
+			font-size: 1.25em;
+			margin: 0 0 10px 0;
+			padding: 0 15px 0 20px;		
+		}
+		.registration-fields {
+			display: inline-block;
+			width: 90%;
+			margin: 15px 0;
+			padding: 0 5%;
+			text-align: center;
+			
+			.submit-button {
+				display: inline-block;
+				margin: 0 auto;
+				padding: 5px;
+				border-top: 2px solid black;
+				border-bottom: 2px solid black;
+				font-family: 'Righteous';
+				font-size: 2em; 
+				
+				&:hover {
+					cursor: pointer;
+					background-color: #cdcdff;
+				}
+			}
+			label {
+				display: inline-block;
+				width: 300px;
+				padding-right: 15px;
+				font-family: 'Boogaloo';
+				font-size: 1em;
+				text-align: right;
+			}
+			input {
+				display: inline-block;
+				width: 350px;
+				height: 25px;
+				margin-bottom: 7px;
+				padding: 0 5px;
+				font-weight: bold;
+				border: solid 2px #9a9a9a;
+			}
+		}
+	
+		.list-of-people {
+			width: 65%;
+			margin: 50px auto 0 auto;
+		
+			.registered-guest-header {
+				margin-top: 15px;
+				border-bottom: 2px solid #a6a6a6;
+				font-family: 'Righteous';
+				font-size: 1.25em;
+				font-weight: bold;
+			}
+			.registered-guest {
+				border-bottom: 2px solid #cccccc;
+			}
+			.registered-guest-header, .registered-guest {
+				margin-bottom: 5px;
+				
+				.name, .guest {
+					display: inline-block;
+				}
+				.name {
+					width: 50%;
+				}
+				.guest {
+					width: 35%;
+				}
+			}
+		}
+	}
+
+}
+
+.footer {
+	width: 100%;
+	padding-right: 10px;
+	text-align: right;
+	font-family: 'Eagle Lake', cursive;
+	font-size: 1em;
+	color: #838383;
+}

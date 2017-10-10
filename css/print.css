@@ -1,0 +1,128 @@
+.top-picture, .bottom-picture {
+  position: relative;
+  width: 100%; }
+  .top-picture .image, .bottom-picture .image {
+    width: 100%;
+    height: 100%; }
+
+.top-picture {
+  height: 350px; }
+
+.top-picture .header {
+  position: absolute;
+  top: 110px;
+  left: 15px;
+  font-family: 'Eagle Lake', cursive;
+  font-size: 5em;
+  color: white;
+  line-height: 80px;
+  -webkit-print-color-adjust: exact; }
+
+.welcome-page {
+  display: block !important; }
+  .welcome-page .event-details .header, .welcome-page .event-details .header-two {
+    display: inline-block;
+    font-family: 'Righteous'; }
+  .welcome-page .event-details .header {
+    font-size: 3em;
+    margin: 0;
+    padding: 0 0 0 7px; }
+  .welcome-page .event-details .header-two {
+    font-size: 2em;
+    margin: 0;
+    padding: 0 0 0 35px; }
+  .welcome-page .event-details .details-text {
+    display: inline-block;
+    width: 54%;
+    font-family: 'Boogaloo';
+    font-size: 1.5em;
+    margin: -25px 0 0 15px;
+    padding: 0 15px 0 20px; }
+  .welcome-page .event-details .spacer {
+    width: 100%;
+    height: 10px; }
+  .welcome-page .event-details .gifts {
+    display: inline-block;
+    width: 55%;
+    margin: 0 auto 5px auto;
+    padding: 0 0 0 25px;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 1.15em; }
+  .welcome-page .event-details .debbie-kevin {
+    width: 400px;
+    float: left; }
+  .welcome-page .middle-divider {
+    width: 100%;
+    height: 200px; }
+    .welcome-page .middle-divider .image {
+      width: 100%;
+      height: 100%; }
+  .welcome-page .dinner-details .dining-options {
+    text-align: center; }
+    .welcome-page .dinner-details .dining-options .food {
+      display: inline-block;
+      width: 30%;
+      height: 325px;
+      margin: 0 15px;
+      vertical-align: top; }
+      .welcome-page .dinner-details .dining-options .food .image {
+        width: 170px;
+        height: 170px; }
+      .welcome-page .dinner-details .dining-options .food .food-header {
+        font-family: 'Righteous';
+        font-size: 1.4em; }
+      .welcome-page .dinner-details .dining-options .food .food-description {
+        font-family: 'Boogaloo';
+        font-size: 1.4em; }
+    .welcome-page .dinner-details .dining-options .food.second-row {
+      width: 45%; }
+    .welcome-page .dinner-details .dining-options .extra-food {
+      display: inline-block;
+      width: 32%;
+      height: 225px;
+      margin: 50px 5px 100px 5px;
+      vertical-align: top; }
+      .welcome-page .dinner-details .dining-options .extra-food .image {
+        width: 150px;
+        height: 150px; }
+      .welcome-page .dinner-details .dining-options .extra-food .extra-food-header {
+        font-family: 'Righteous';
+        font-size: 1.4em; }
+      .welcome-page .dinner-details .dining-options .extra-food .extra-food-description {
+        font-family: 'Boogaloo';
+        font-size: 1.4em; }
+
+.register-page .header {
+  font-family: 'Righteous';
+  font-size: 4em;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 2.5px 30px; }
+.register-page .list-of-people {
+  width: 85%;
+  margin: 50px auto 25px auto; }
+  .register-page .list-of-people .registered-guest-header {
+    margin-top: 15px;
+    border-bottom: 2px solid #a6a6a6;
+    font-family: 'Righteous';
+    font-size: 1.2em;
+    font-weight: bold; }
+  .register-page .list-of-people .registered-guest {
+    border-bottom: 2px solid #cccccc; }
+  .register-page .list-of-people .registered-guest-header, .register-page .list-of-people .registered-guest {
+    margin-bottom: 5px; }
+    .register-page .list-of-people .registered-guest-header .name, .register-page .list-of-people .registered-guest-header .guest, .register-page .list-of-people .registered-guest .name, .register-page .list-of-people .registered-guest .guest {
+      display: inline-block;
+      font-size: 1.2em; }
+    .register-page .list-of-people .registered-guest-header .name, .register-page .list-of-people .registered-guest .name {
+      width: 50%; }
+    .register-page .list-of-people .registered-guest-header .guest, .register-page .list-of-people .registered-guest .guest {
+      width: 35%; }
+
+.alertify-logs {
+  display: none !important; }
+
+.print-hide {
+  display: none !important; }
+
+/*# sourceMappingURL=print.css.map */
